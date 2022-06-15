@@ -1,0 +1,1 @@
+/*7. Crie uma função que receba 2 números e retorne a multiplicação e divisão entre eles. */
