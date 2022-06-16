@@ -8,7 +8,7 @@ function deMenor(sequencia){
     var menor = sequencia[0];
     //percorre a sequência a partir do segundo elemento
     for(var i =1;i<tamanho;i++){
-        //se o elemento conhecido for maior que o próximo, então menor é substituido
+        //se o elemento conhecido for menor que o próximo, então menor é substituido
         if(menor >= sequencia[i]){
             menor = sequencia[i];
         }
