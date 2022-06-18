@@ -18,5 +18,3 @@ var deMenor = function(sequencia){
 
 module.exports = deMenor;
 
-var idades = [16,18];
-console.log(deMenor(idades));
