@@ -1,7 +1,7 @@
 /*4 - Crie uma função que, dada uma sequencia de números, retorne qual é o menor entre eles.*/
 
 
-function deMenor(sequencia){
+var deMenor = function(sequencia){
     //define tamanho da sequência
     var tamanho = sequencia.length;
     //define que primeiro valor da sequencia é o menor
@@ -16,7 +16,7 @@ function deMenor(sequencia){
     return menor;
 }
 
-//Declaração de sequência
-var seq = [11,45,5,42,547,65,324,334,5234,52,10,23];
-var k = deMenor(seq); // K recebe o menor valor da sequência
-console.log(k); // Exite K
+module.exports = deMenor;
+
+var idades = [16,18];
+console.log(deMenor(idades));
