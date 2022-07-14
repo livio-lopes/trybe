@@ -6,3 +6,6 @@ CSS
 JavaScript
 React
 SQL
+Softskills
+- Trabalho em equipe
+- Autogestão
