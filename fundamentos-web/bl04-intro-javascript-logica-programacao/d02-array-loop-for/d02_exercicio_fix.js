@@ -30,3 +30,14 @@ if (arithmeticAverage > 20){
     console.log(""); // Quebra de linha improvisada
     console.log("valor menor ou igual a 20");
 }
+
+// 5 - Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+let aux = 0; // Variável auxiliar
+for (let number of numbers){
+    if (number > aux ){
+        aux = number;
+    }
+}
+console.log(""); // Quebra de linha improvisada
+console.log("O maior valor contido em numbes é: " + aux);
+
