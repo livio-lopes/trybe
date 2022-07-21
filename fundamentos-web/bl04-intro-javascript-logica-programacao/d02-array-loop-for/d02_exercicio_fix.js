@@ -7,10 +7,17 @@ for (let number of numbers){
 
 // 2 - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 
-let result = 0;
+let some = 0;
 
 for (let number of numbers){
-    result += number;
+    some += number;
 }
+console.log(""); // Quebra de linha improvisada
+console.log(some);
 
-console.log(result);
+// 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+
+let arithmeticAverage = some/numbers.length;
+console.log(""); // Quebra de linha improvisada
+console.log(arithmeticAverage);
+
