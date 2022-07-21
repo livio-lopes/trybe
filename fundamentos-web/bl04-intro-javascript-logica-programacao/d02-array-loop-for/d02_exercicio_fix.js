@@ -74,3 +74,10 @@ for (let index = 0; index <25 ;index++){
     newList.push(index+1);
 }
 console.log(newList);
+
+// 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+console.log(""); // Quebra de linha improvisada
+
+for (let number of newList){
+    console.log(number/2);
+}
