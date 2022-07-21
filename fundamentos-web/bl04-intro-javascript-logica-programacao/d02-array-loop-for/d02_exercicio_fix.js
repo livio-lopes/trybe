@@ -65,3 +65,12 @@ for (let number of numbers){
 
 console.log(""); // Quebra de linha improvisada
 console.log("O menor valor contido em numbes é: " + menor);
+
+// 8 - Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+console.log(""); // Quebra de linha improvisada
+
+let newList = [];
+for (let index = 0; index <25 ;index++){
+    newList.push(index+1);
+}
+console.log(newList);
