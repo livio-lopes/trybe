@@ -32,14 +32,14 @@ if (arithmeticAverage > 20){
 }
 
 // 5 - Utilizando for, descubra qual o maior valor contido no array e imprima-o;
-let aux = 0; // Variável auxiliar
+let maior = numbers[0]; // Variável auxiliar
 for (let number of numbers){
-    if (number > aux ){
-        aux = number;
+    if (number > maior ){
+        maior = number;
     }
 }
 console.log(""); // Quebra de linha improvisada
-console.log("O maior valor contido em numbes é: " + aux);
+console.log("O maior valor contido em numbes é: " + maior);
 
 // 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
@@ -52,3 +52,16 @@ for (let number of numbers){
 }
 console.log(""); // Quebra de linha improvisada
 console.log(`Em numbers existem ${cont_impar} números impares`);
+
+// 7 - Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+let menor = numbers[0];
+
+for (let number of numbers){
+    if ( number < menor){
+        menor = number;
+    }
+}
+
+console.log(""); // Quebra de linha improvisada
+console.log("O menor valor contido em numbes é: " + menor);
