@@ -41,3 +41,14 @@ for (let number of numbers){
 console.log(""); // Quebra de linha improvisada
 console.log("O maior valor contido em numbes é: " + aux);
 
+// 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+let cont_impar = 0; //contador de impares
+
+for (let number of numbers){
+    if(number%2 !== 0){
+        cont_impar +=1;
+    }
+}
+console.log(""); // Quebra de linha improvisada
+console.log(`Em numbers existem ${cont_impar} números impares`);
